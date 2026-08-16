@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';
+test('static app includes core dog-first experiences',async()=>{const html=await readFile('index.html','utf8');const js=await readFile('src/app.js','utf8');const css=await readFile('src/styles.css','utf8');assert.match(html,/Waggie Tail/);assert.match(js,/Give your dog their own account/);assert.match(js,/Shelter Voice Command Center/);assert.match(js,/Create a post as your active dog/);assert.match(css,/#ff6b61/i);});

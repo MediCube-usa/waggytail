@@ -116,3 +116,33 @@ Date: 2026-08-15
 ### Decision
 
 GitHub preserves final architecture, decisions, code, tests, prompts, runbooks, and recovery history.
+
+---
+
+## Decision 011: Premium Dog-First Visual System
+Status: ACTIVE
+Date: 2026-08-16
+
+### Decision
+
+Waggie Tail uses a premium, warm, photo-driven social interface where dogs are the public identities and human, shelter, rescue, foster, and advocate managers operate behind dog profiles through private controls.
+
+### Reason
+
+The product needs to communicate immediately that it is an Instagram-style social network built specifically for dogs while remaining credible for national shelter advocacy, creators, partners, and brands.
+
+### Applies To
+
+- Application shell
+- Landing page
+- Home feed
+- Dog profiles
+- Shelter dog profiles
+- Discover
+- Create post
+- Contests and campaigns
+- Notifications
+- Settings
+- Administration
+- Shelter Voice Command Center
+- Design system documentation
