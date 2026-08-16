@@ -171,3 +171,26 @@ The owner wants the site to feel comparable to leading human social media produc
 - Shelter dog presentation
 - Campaigns and contests
 - Brand and visual language
+
+## Decision 013: Final Reference-Led Visual Reset
+Status: ACTIVE
+Date: 2026-08-16
+
+### Decision
+
+Waggie Tail replaces the rejected generic SaaS and AI-adjacent visual direction with a warm cream, deep navy, coral, sage, and golden dog-centered visual foundation anchored by illustrated dog identity, friendly rounded navigation, mobile social cards, and dog-first profile surfaces.
+
+### Reason
+
+The owner identified the supplied Waggie Tail reference image as the visual source of truth and directed implementation to replace the existing visual system rather than incrementally improve it. The implementation prioritizes brand, dogs, social experience, navigation, mobile presentation, and shelter tools that still feel like Waggie Tail.
+
+### Applies To
+
+- Global CSS tokens and typography
+- Logo treatment and illustrated dog mark placement
+- Homepage hero
+- Navigation
+- Mobile shell
+- Dog cards and feed components
+- Shelter presentation
+- Campaign presentation

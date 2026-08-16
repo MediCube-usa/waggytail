@@ -1,2 +1,17 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';
-test('static app includes core dog-first experiences',async()=>{const html=await readFile('index.html','utf8');const js=await readFile('src/app.js','utf8');const css=await readFile('src/styles.css','utf8');assert.match(html,/Waggie Tail/);assert.match(js,/A premium social network where every dog is the public identity/);assert.match(js,/Instagram-grade photo feed/);assert.match(js,/Shelter Voice Command Center/);assert.match(js,/Create a post as your active dog/);assert.match(css,/#e86f5c/i);assert.match(css,/benchmark/);});
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+
+test('static app implements the Waggie Tail visual reset',async()=>{
+  const html=await readFile('index.html','utf8');
+  const js=await readFile('src/app.js','utf8');
+  const css=await readFile('src/styles.css','utf8');
+  assert.match(html,/Waggie Tail/);
+  assert.match(js,/The Social World for Dogs/);
+  assert.match(js,/Profiles','Posts','Friends','Dating','Groups','Events/);
+  assert.match(js,/while preserving the warm social product/);
+  assert.doesNotMatch(js,/Instagram-grade|TikTok-speed|Pinterest-level|AI video/i);
+  assert.match(css,/--cream:#fbf2df/);
+  assert.match(css,/dogFace/);
+  assert.match(css,/bottomNav/);
+});
