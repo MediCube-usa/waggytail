@@ -146,3 +146,28 @@ The product needs to communicate immediately that it is an Instagram-style socia
 - Administration
 - Shelter Voice Command Center
 - Design system documentation
+
+---
+
+## Decision 012: Real-Dog Premium Social Benchmark
+Status: ACTIVE
+Date: 2026-08-16
+
+### Decision
+
+Waggie Tail presents dogs as premium public social identities through real dog photography, editorial hierarchy, creator-platform interaction patterns, and restrained brand marks instead of AI dog imagery or pet-store styling.
+
+### Reason
+
+The owner wants the site to feel comparable to leading human social media products while communicating that dogs run the world. The interface therefore prioritizes high-quality photo feeds, profile storytelling, discovery surfaces, trust badges, campaign moments, and private manager controls.
+
+### Applies To
+
+- Landing page
+- Application shell
+- Feed and posts
+- Dog profiles
+- Discover
+- Shelter dog presentation
+- Campaigns and contests
+- Brand and visual language
